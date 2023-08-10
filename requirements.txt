@@ -1,0 +1,4 @@
+torch==1.6.0+cu101
+torchfile==0.1.0
+torchvision==0.7.0+cu101
+numpy==1.19.5
