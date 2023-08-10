@@ -20,22 +20,7 @@ If you find our work useful in your research, please consider citing:
 ## Results
 
 The source results of various defenses against Edge-case PGD attack are in `log`.
-
-The table shows the robustness of our approach compared to the SOTA defenses for various challenging attacks.
-
-|  defenses  | Model  Replacement |      DBA       |      PGD       |  Edge-case PGD  |
-| :--------: | :----------------: | :------------: | :------------: | :-------------: |
-|            |       MA/BA        |     MA/BA      |     MA/BA      |      MA/BA      |
-|   FedAvg   |  **86.95**/64.80   |  79.23/90.44   |  87.04/14.44   |   87.14/55.10   |
-|    RFA     |    86.69/25.56     |  79.60/57.69   | **87.1**/52.56 |   86.47/65.31   |
-| Foolsgold  |     85.71/6.67     |   77.56/3.43   |  84.92/14.44   |   84.76/51.53   |
-|    Krum    |     82.17/6.11     |   78.18/6.01   |  82.32/66.67   |   81.23/59.18   |
-| Multi-Krum |     86.55/1.67     |  79.33/91.39   |  86.52/17.78   | **87.40**/60.20 |
-|  Weak-DP   |     74.41/46.1     |    10/**0**    |  74.43/22.22   |   73.84/53.06   |
-|   Flame    |   80.58/**0.56**   |  76.78/37.24   | 81.24/**0.56** |   81.41/5.12    |
-|    Ours    |   86.34/**0.56**   | **79.61**/9.98 | 86.44/**0.56** | 86.86/**3.06**  |
-
- The figure shows MA(%) and BA(%) of various defenses under Edge-case PGD attack.
+The figure shows MA(%) and BA(%) of various defenses under Edge-case PGD attack.
 
 ![cifar_compare](fig/cifar.PNG)
 
