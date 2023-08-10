@@ -1,4 +1,4 @@
-# Multi-metrics
+# Multi-metrics_against_backdoors_in_FL
 
 This codebase is the official PyTorch implementation of our paper:
 
