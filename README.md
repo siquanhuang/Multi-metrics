@@ -15,6 +15,15 @@ If you find our work useful in your research, please consider citing:
   journal={arXiv preprint arXiv:2303.06601},
   year={2023}
 }
+
+@InProceedings{Huang_2023_ICCV,
+    author    = {Huang, Siquan and Li, Yijiang and Chen, Chong and Shi, Leyu and Gao, Ying},
+    title     = {Multi-Metrics Adaptively Identifies Backdoors in Federated Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {4652-4662}
+}
 ```
 
 ## Results
