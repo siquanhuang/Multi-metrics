@@ -14,6 +14,8 @@ The figure shows MA(%) and BA(%) of various defenses under Edge-case PGD attack.
 
 ![cifar_compare](fig/cifar.PNG)
 
+Robustness of our approach compared to the SOTA defenses for various challenging attacks.
+![table_compare](fig/table.png)
 ## Getting Started
 
 ```bash
