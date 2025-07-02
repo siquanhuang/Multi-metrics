@@ -13,10 +13,10 @@ The source results of various defenses against Edge-case PGD attack are in `log`
 The figure shows MA(%) and BA(%) of various defenses under Edge-case PGD attack. Only our method and Flame successfully resist the
       Edge-case PGD attack during the entire training process, and Flame also dampens the MA. 
 
-![cifar_compare](fig/cifar.PNG)
+![cifar_compare](https://github.com/siquanhuang/Multi-metrics_against_backdoors_in_FL/raw/e8ecaf3297a4c7b803d17074cb0bf733e0ed0174/fig/cifar.PNG)
 
 Robustness of our approach compared to the SOTA defenses for various challenging attacks. we show that our method obtains the highest ranking score with almost 400% better than the baseline and outperforms the second-best Flame by around 0.5.
-![table_compare](fig/table.png)
+![table_compare](https://raw.githubusercontent.com/siquanhuang/Multi-metrics_against_backdoors_in_FL/main/fig/table.png)
 
 ## Getting Started
 
@@ -64,7 +64,10 @@ python simulated_averaging.py \
 ```
 
 ## Citation
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing with:
+
+conference version:
+
 ```
 @InProceedings{Huang_2023_ICCV,
     author    = {Huang, Siquan and Li, Yijiang and Chen, Chong and Shi, Leyu and Gao, Ying},
@@ -74,6 +77,22 @@ If you find our work useful in your research, please consider citing:
     year      = {2023},
     pages     = {4652-4662}
 }
+```
+
+or journal version accepted in TPAMI 2025:
+
+```
+@ARTICLE{11045524,
+  author={Huang, Siquan and Li, Yijiang and Chen, Chong and Gao, Ying and Hu, Xiping},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={FedID: Enhancing Federated Learning Security Through Dynamic Identification}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
+  keywords={Measurement;Computational modeling;Training;Robustness;Data models;Servers;Euclidean distance;Security;Federated learning;Faces;Backdoor attack;federated learning;robust defense;safe aggregation},
+  doi={10.1109/TPAMI.2025.3581555}
+  }
 ```
 
 ## Acknowledgement
